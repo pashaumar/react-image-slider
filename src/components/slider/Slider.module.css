@@ -1,0 +1,15 @@
+.slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.arrows {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.slideContainer {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
