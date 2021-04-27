@@ -11,7 +11,7 @@ function Slide({ path, activeIndex, index }) {
   };
   return (
     <div className={styles.slide} style={trans()}>
-      {dummyText[index]}
+      <h1 className={styles.textOverLay}>{dummyText[index]}</h1>
     </div>
   );
 }
