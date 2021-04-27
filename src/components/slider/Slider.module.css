@@ -21,3 +21,8 @@
   padding: 0.2rem 0.5rem;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  .slider {
+    width: 100%;
+  }
+}

@@ -18,7 +18,7 @@ function Slider() {
 
   const showSlide = () => {
     return images.map((item, index) => (
-      <Slide path={item} key={index} activeIndex={activeIndex} />
+      <Slide path={item} key={index} activeIndex={activeIndex} index={index} />
     ));
   };
 

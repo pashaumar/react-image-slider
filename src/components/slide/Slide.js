@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Slide.module.css";
+import { dummyText } from "../../utils/dummytext";
 function Slide({ path, activeIndex, index }) {
   const trans = () => {
     return {
@@ -10,7 +11,7 @@ function Slide({ path, activeIndex, index }) {
   };
   return (
     <div className={styles.slide} style={trans()}>
-      demo
+      {dummyText[index]}
     </div>
   );
 }
