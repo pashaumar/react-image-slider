@@ -3,13 +3,21 @@
   margin: 0 auto;
   position: relative;
 }
-.arrows {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
 .slideContainer {
   width: 100%;
   display: flex;
   overflow: hidden;
+}
+.arrows {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+.arrows div {
+  margin: 0 1px 1px 10px;
+  color: white;
+  border: 1px solid white;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
 }
